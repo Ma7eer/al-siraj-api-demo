@@ -1,0 +1,34 @@
+{
+  "name": "al-siraj-api",
+  "version": "0.0.1",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "pm2-runtime start ecosystem.config.js --env production",
+    "prod": "heroku ps:scale web=1",
+    "dev": "heroku ps:scale web=0 && nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/estore-oman/al-siraj-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/estore-oman/al-siraj-api/issues"
+  },
+  "homepage": "https://gitlab.com/estore-oman/al-siraj-api#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.1",
+    "multer": "^1.4.2",
+    "pm2": "^4.2.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}

@@ -1,0 +1,16 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Zilog Document Download</title>
+</head>
+<body>
+<script src="http://www.logiklu.com/zilog/capture.js" type="text/javascript"></script>
+</body>
+<script>
+/*
+setTimeout(function() { location.target = "_blank"; location.href = "http://www.zilog.com/docs/z8encore/pb0165.pdf"; },2000);
+*/
+setTimeout(function() { location.target = "_blank"; location.href = "force_download.php?filepath=YUhSMGNEb3ZMM2QzZHk1NmFXeHZaeTVqYjIwdlpHOWpjeTk2T0dWdVkyOXlaUzl3WWpBeE5qVXVjR1Jt"; },2000);
+</script>
+</html>
